@@ -10,9 +10,7 @@ namespace GameBackendDemo
 
         public int CalculateAge(Player player)
         {
-            int age = year -= player.YearOfBirth;
-            year = 2021;
-            return age;
+            return year - player.YearOfBirth;
             
         }
     }
